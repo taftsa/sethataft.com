@@ -1,11 +1,15 @@
 body {
-	font-family: tahoma;
+	font-family: "Andale Mono", AndaleMono, monospace;
 	text-align: center;
+	user-select: none;
 }
 
 #name {
-	font-size: 3em;
+	display: inline-block;
+	font-size: 2.5em;
 	text-align: center;
+	border-bottom: 5px double black;
+	border-top: 5px double black;
 }
 
 .bubble {
@@ -14,11 +18,11 @@ body {
 }
 
 .mainMenu {
-	width: 200px;
-	height: 200px;
-	line-height: 200px;
+	width: 350px;
+	height: 350px;
+	line-height: 350px;
 	margin: 10px;
-	font-size: 1.5em;
+	font-size: 2em;
 	display: inline-block;
 	position: relative;
 	vertical-align: top;
