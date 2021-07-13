@@ -38,7 +38,7 @@ body {
 
 .image {
 	opacity: .1;
-	left: -80px;
+	left: 0;
 	position: absolute;
 	height: 350px;
 	z-index: 1;	
@@ -51,7 +51,7 @@ body {
 .image.main {
 	opacity: 1;
 	width: 350px;
-	left: 0px;
+	left: 0;
 }
 
 .label {
