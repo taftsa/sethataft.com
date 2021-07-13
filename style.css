@@ -15,6 +15,8 @@ body {
 .bubble {
 	border-radius: 50%;
 	text-align: center;
+	position: relative;
+	overflow: hidden;
 }
 
 .mainMenu {
@@ -34,109 +36,46 @@ body {
 	text-shadow: 0 0 5px yellow;
 }
 
-#headshot {
-	background-image: url("headshot.png");
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#about:after {
-	content: "";
-	background-image: url("about.jpg");
-	opacity: 0.1;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
+.image {
+	opacity: .1;
+	left: -80px;
 	position: absolute;
-	z-index: -1;   
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	border-radius: 50%;
+	height: 350px;
+	z-index: 1;	
 }
 
-#about:hover:after, #teaching:hover:after, #playing:hover:after, #researching:hover:after, #coding:hover:after, #woodworking:hover:after {
-	opacity: .85;
+.image:hover {
+	opacity: 1;
 }
 
-#teaching:after {
-	content: "";
-	background-image: url("teaching.jpg");
-	opacity: 0.1;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
+.image.main {
+	opacity: 1;
+	width: 350px;
+	left: 0px;
+}
+
+.label {
 	position: absolute;
-	z-index: -1;   
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	border-radius: 50%;
+	width: 100%;
+	z-index: 2;
+	pointer-events: none;
 }
 
-#playing:after {
-	content: "";
-	background-image: url("playing.jpg");
-	opacity: 0.1;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	position: absolute;
-	z-index: -1;   
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	border-radius: 50%;
+#back {
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	font-size: 30px;
+	background-color: black;
+	color: white;
+	border-radius: 50px;
+	text-align: center;
+	cursor: pointer;
+	margin: auto;
+	margin-top: 100px;
 }
 
-#researching:after {
-	content: "";
-	background-image: url("researching.jpg");
-	opacity: 0.1;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	position: absolute;
-	z-index: -1;   
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	border-radius: 50%;
-}
-
-#coding:after {
-	content: "";
-	background-image: url("coding.jpg");
-	opacity: 0.1;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	position: absolute;
-	z-index: -1;   
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	border-radius: 50%;
-}
-
-#woodworking:after {
-	content: "";
-	background-image: url("woodworking.jpg");
-	opacity: 0.1;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	position: absolute;
-	z-index: -1;   
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	border-radius: 50%;
+#back:hover {
+	color: black;
+	background-color: silver;
 }
