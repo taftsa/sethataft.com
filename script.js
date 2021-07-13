@@ -29,5 +29,5 @@ $(document).on('click', '.mainMenu.link', function(){
 });
 
 $(document).on('click', '#back', function(){
-	window.location.replace('sethataft.com');
+	window.location.replace('http://sethataft.com');
 });
