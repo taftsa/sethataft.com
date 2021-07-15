@@ -84,13 +84,13 @@ body {
 
 a {
 	text-decoration: none;
-	background-color: azure;
-	border-radius: 5px;
-	color: black;
+	color: darkturquoise;
 }
 
 a:hover {
-	background-color: paleturquoise;
+	border-top: 1px solid darkcyan;
+	border-bottom: 1px solid darkcyan;
+	color: darkcyan;
 }
 
 p, .imageContainer {
