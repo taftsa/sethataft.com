@@ -12,6 +12,7 @@ body {
 	text-align: center;
 	border-bottom: 5px double black;
 	border-top: 5px double black;
+	margin-bottom: 60px;
 }
 
 .bubble {
