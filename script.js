@@ -7,8 +7,7 @@ var bodyText = {
 				'the next day during methods classes. As much as I enjoy playing and conducting, there\'s nothing more satisfying than watching a student go from not being able to play or conduct something to being able to do so ' +
 				'exceptionally well.</p>' +
 				'<p>Teaching also affords me the opportunity to refine my understanding of musical and pedagogical concepts. I love when students ask questions to which I don\'t know the answers or derail my entire lesson plan to discuss ' +
-				'a fringe case that doesn\'t fit neatly into the conceptual framework we\'re discussing. It makes me a better musician and teacher, and it means that next year\'s lesson will be all the more useful. If you are currently ' +
-				'a student of mine, I\'m sorry; next year\'s class will get better instruction, and it\'s because of you.</p>'
+				'a fringe case that doesn\'t fit neatly into the conceptual framework we\'re discussing. It makes me a better musician and teacher, and it means that next year\'s lesson will be all the more useful.</p>'
 	,
 	Playing: 'My primary instrument is the saxophone, especially the baritone and alto saxes. As a music educator, I don\'t get as much time to play as I would like. Although most of my playing happens in traditional Western art music idioms ' +
 				'and their derivatives, I enjoy playing pop tunes, especially <a target="_blank" href="https://fb.watch/v/dCbANj5Ik/">well-written children\'s music</a>, and can be heard playing in <a target="_blank" href="https://landsofawesternsunrise.bandcamp.com/track/hidden-or-forgotten">some unexpected places</a>.</p>' +
