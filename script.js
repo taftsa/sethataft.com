@@ -22,10 +22,11 @@ var bodyText = {
 				'I have also written about <a target="_blank" href="https://doi.org/10.1177/0027432119877924">optimism in music study</a> and <a target="_blank" href="https://doi.org/10.1177/8755123319846542">composition in ensemble classrooms</a>.'
 	,
 	Coding: '<p>Teachers use all kinds of tools to solve everyday pedagogical and adminstrative problems. For me, coding in web development languages (HTML, CSS, and JavaScript) is one of those tools. ' +
-				'I\'ve developed web-based solutions for advising, <a target="_blank" href="https://basicode.sethataft.com">qualitative analysis</a>, and more. I also wrote every line of code that makes up this website (i.e., no WordPress or Weebly).</p>' +
-				'<p>Probably the most ambitious thing I ever built is Optimal, my platform for ensemble literature selection. It stores records of various aspects of difficulty of a piece, and any user can create one of those records. ' +
-				'You can search through all the pieces that have been logged and get an average opinion (and plenty of comments) about the difficulty of that piece. It hasn\'t taken off, but it\'s still a great example of what ' +
-				'technology can do for music education. You can see the three versions of Optimal, along with my solution for blind auditions, <a target="_blank" href="https://bandhacker.sethataft.com">here</a>. These were previously hosted on a site I called bandhacker, so I\'ve kept that ' +
+				'I\'ve developed web-based solutions for <a target="_blank" href="https://snap.sethataft.com">advising</a>, <a target="_blank" href="https://basicode.sethataft.com">qualitative analysis</a>, and more. I also wrote every line of code that makes up this website (i.e., no WordPress or Weebly).</p>' +
+				'<p>Probably the most ambitious thing I ever built was Optimal, a platform for ensemble literature selection. It stored records of various aspects of difficulty of a piece, and any user could create one of those records. ' +
+				'You could search through all the pieces that had been logged and get an average opinion (and plenty of comments) about the difficulty of that piece. It is no longer active, but it\'s a great example of what ' +
+				'technology could do for music education.</p>'+
+				'<p>I also created a solution for blind recorded auditions, which I call Principal. You can access Principal <a target="_blank" href="https://bandhacker.sethataft.com/principal/principal.html">here</a>. Both Optimal and Principal were hosted on a site I called bandhacker, so I\'ve kept that ' +
 				'nomenclature for the time being.'
 				,
 	Woodworking: '<p>It doesn\'t have anything to do with my career, and I\'m not very good at it yet. However, I belive in work-life balance, hobbies, and learning new things. ' +
