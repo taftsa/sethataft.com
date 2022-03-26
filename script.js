@@ -1,6 +1,6 @@
 var bodyText = {
 	About: 'My name is Seth A. Taft, and I am Assistant Professor of Music Education, Director of Instrumental Music, and Music Program Coordinator at <a href="https://www.limestone.edu/">Limestone University</a>. I have degrees in ' +
-				'Music Education from the University of Colorado Boulder (PhD) and Virginia Commonwealth University (MM, BM). I am a teacher, musician, researcher, technology advocate, and occasional idealist.'
+				'Music Education from the University of Colorado Boulder (PhD) and Virginia Commonwealth University (MM, BM). I am a teacher, musician, researcher, technology advocate, quasi-praxialist, and occasional idealist.'
 	,
 	Teaching: '<p>Teaching is the core of my professional life. One of the things I love aobut my current job is the variety of things I get to teach about. I teach classes in instrumental performance, conducting, and music education. That means ' +
 				'I get to teach students, especially future music educators, at multiple touchpoints in their musical experiences. I get to help them improve as musicians in Wind Ensemble, then discuss how I planned and made decisions ' +
@@ -22,16 +22,20 @@ var bodyText = {
 				'I have also written about <a target="_blank" href="https://doi.org/10.1177/0027432119877924">optimism in music study</a> and <a target="_blank" href="https://doi.org/10.1177/8755123319846542">composition in ensemble classrooms</a>.'
 	,
 	Coding: '<p>Teachers use all kinds of tools to solve everyday pedagogical and adminstrative problems. For me, coding in web development languages (HTML, CSS, and JavaScript) is one of those tools. ' +
-				'I\'ve developed web-based solutions for <a target="_blank" href="https://snap.sethataft.com">advising</a>, <a target="_blank" href="https://basicode.sethataft.com">qualitative analysis</a>, and more. I also wrote every line of code that makes up this website (i.e., no WordPress or Weebly).</p>' +
+				'I\'ve developed web-based solutions for <a target="_blank" href="https://snap.sethataft.com">advising</a>, <a target="_blank" href="https://basicode.sethataft.com">qualitative analysis</a>, and more. ' +
+				'I also made this website and <a href="https://turtle.sethataft.com/">my own take on WORDLE-based word games</a>. ' +
+				'These things are all made from scratch (i.e., no WordPress or Weebly).</p>' +
 				'<p>Probably the most ambitious thing I ever built was Optimal, a platform for ensemble literature selection. It stored records of various aspects of difficulty of a piece, and any user could create one of those records. ' +
 				'You could search through all the pieces that had been logged and get an average opinion (and plenty of comments) about the difficulty of that piece. It is no longer active, but it\'s a great example of what ' +
-				'technology could do for music education.</p>'+
+				'technology could do for music education.</p>' +
 				'<p>I also created a solution for blind recorded auditions, which I call Principal. You can access Principal <a target="_blank" href="https://bandhacker.sethataft.com/principal/principal.html">here</a>. Both Optimal and Principal were hosted on a site I called bandhacker, so I\'ve kept that ' +
 				'nomenclature for the time being.'
 				,
-	Woodworking: '<p>It doesn\'t have anything to do with my career, and I\'m not very good at it yet. However, I belive in work-life balance, hobbies, and learning new things. ' +
-				'With years of experience as a musician and educator, I think it\'s good to have something completely unrelated that I can be new at to keep perspective.' +
-				'<div class="imageContainer"><img class="pageImage" src="woodworking/woodworking1.jpg" /><img class="pageImage" src="woodworking/woodworking2.jpg" /><img class="pageImage" src="woodworking/woodworking3.jpg" /></p>'
+	Making: '<p>I belive in work-life balance, hobbies, and learning new things. When I\'m not teaching or making music, I enjoy working with my hands and creating things. ' +
+			'Narratives surrounding creativity—especially self-narratives of people who don\'t think they are creative—seem to present creativity as ' +
+			'an abstract or mysterious quality derived more often from a muse than a mind. I think that\'s backwards; as important as ingenuity is, it all start with the act of creating, even re-creating. ' +
+				'With years of experience as a musician and educator, I also think it\'s good to have something not ostensibly related to my job so that I can be new at something and keep perspective.' +
+				'<div class="imageContainer"><img class="pageImage" src="hobbies/woodworking1.jpg" /><img class="pageImage" src="hobbies/woodworking2.jpg" /><img class="pageImage" src="hobbies/woodworking3.jpg" /><img class="pageImage" src="hobbies/modding1.jpg" /></p>'
 				,
 	Contact: '<p>The best method for contacting me is my work email, <a target="_blank" href="mailto:sataft@limestone.edu">sataft@limestone.edu</a>.</p>' + 
 				'<p>You can also call me at <a href="tel:8644884508">(864) 488-4508</a>.</p>' +
