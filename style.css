@@ -4,15 +4,22 @@ body {
 	user-select: none;
 	background-image: url("background.jpg");
 	background-size: cover;
+	margin: 0;
+	border-top: 8px solid #B7FFF1;
+	border-bottom: 8px solid #FFB7C5;
 }
 
 #name {
 	display: inline-block;
 	font-size: 2.5em;
 	text-align: center;
-	border-bottom: 5px double black;
-	border-top: 5px double black;
+	border-bottom: 5px solid black;
+	border-top: 5px solid black;
 	margin-bottom: 60px;
+}
+
+.text {
+	display: none;
 }
 
 .bubble {
@@ -40,11 +47,17 @@ body {
 	text-shadow: 0 0 5px yellow;
 }
 
+.mainMenu.pandora, .mainMenu.pandora img {
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	font-size: 1.4em;
+}
+
 .image {
 	opacity: .1;
 	left: 0;
 	position: absolute;
-	height: 350px;
 	z-index: 3;	
 }
 
@@ -54,7 +67,6 @@ body {
 
 .image.main {
 	opacity: 1;
-	width: 350px;
 	left: 0;
 }
 
@@ -63,25 +75,6 @@ body {
 	width: 100%;
 	z-index: 5;
 	pointer-events: none;
-}
-
-#back {
-	height: 60px;
-	width: 60px;
-	line-height: 60px;
-	font-size: 30px;
-	border-radius: 50px;
-	text-align: center;
-	cursor: pointer;
-	margin: auto;
-	margin-top: 100px;
-	margin-bottom: 50px;
-	background-color: #E8E8E8;
-}
-
-#back:hover {
-	background-color: black;
-	color: white;
 }
 
 a {
@@ -108,4 +101,12 @@ p, .imageContainer {
 
 .imageContainer {
 	margin-top: 80px;
+}
+
+.current .image {
+	opacity: 1;
+}
+
+.current .label {
+	display: none;
 }
